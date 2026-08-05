@@ -946,3 +946,21 @@ button:focus {
   }
 }
 
+/* Proje kartlarındaki butonların her zaman tıklanabilir olmasını sağlar */
+.project-card-view .btn {
+  position: relative !important;
+  z-index: 999 !important;
+  pointer-events: auto !important;
+}
+
+
+.navbar {
+  pointer-events: none;
+}
+.navbar * {
+  pointer-events: auto;
+}
+
+#tsparticles {
+  pointer-events: none !important;
+}
