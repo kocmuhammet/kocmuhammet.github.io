@@ -57,7 +57,7 @@ function Home() {
 
       
 
-      {/* 2. DİĞER SEKMELERİ ANA SAYFAYA ALT ALTA EKLİYORUZ */}
+      {/* 2. DİĞER SEKMELERİ ANA SAYFAYA ALT ALTA EKLİYORUZ... */}
       <div id="about-section"><About /></div>
       <div id="projects-section"><Projects /></div>
       <div id="sertifika-section"><Sertifika /></div>
