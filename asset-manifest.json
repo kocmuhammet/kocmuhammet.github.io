@@ -1,14 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.f7917a37.css",
-    "main.js": "/static/js/main.2813b5c6.js",
+    "main.js": "/static/js/main.fd8530ae.js",
     "static/js/453.ace21015.chunk.js": "/static/js/453.ace21015.chunk.js",
+    "static/media/yz.jpg": "/static/media/yz.9d47c8380cc9df291b4c.jpg",
     "static/media/Muhammet_Koc_VBT.pdf": "/static/media/Muhammet_Koc_VBT.22ec7ef197e51fb6963d.pdf",
     "static/media/web.png": "/static/media/web.799f8d9034a7b70d0548.png",
-    "static/media/001_Muhammet_Koç_CV.pdf": "/static/media/001_Muhammet_Koç_CV.cd05cd3891753cbb10bf.pdf",
+    "static/media/nexus.png": "/static/media/nexus.bcb204e484d39a5e77f1.png",
     "static/media/benhome.jpeg": "/static/media/benhome.eebdef624b29466a8037.jpeg",
     "static/media/hukuk.png": "/static/media/hukuk.ab0c018da270a4107f2d.png",
     "static/media/logoqu.png": "/static/media/logoqu.5209319a0ff20ab6c955.png",
+    "static/media/001_Muhammet_Koç_CV.pdf": "/static/media/001_Muhammet_Koç_CV.43fa7a73406a5227a48a.pdf",
     "static/media/benavatar.jpg": "/static/media/benavatar.1c3962da93702a55f01b.jpg",
     "static/media/test.jpg": "/static/media/test.0555cfbaaf36ee0293f1.jpg",
     "static/media/go.svg": "/static/media/go.9a9bf59ea453fc0e3ec82471b0c300ab.svg",
@@ -39,11 +41,11 @@
     "static/media/Haskell.svg": "/static/media/Haskell.084122e02bec646ad186861642137932.svg",
     "static/media/Firebase.svg": "/static/media/Firebase.de3da3a4068963dd30fc0f885f170428.svg",
     "main.f7917a37.css.map": "/static/css/main.f7917a37.css.map",
-    "main.2813b5c6.js.map": "/static/js/main.2813b5c6.js.map",
+    "main.fd8530ae.js.map": "/static/js/main.fd8530ae.js.map",
     "453.ace21015.chunk.js.map": "/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f7917a37.css",
-    "static/js/main.2813b5c6.js"
+    "static/js/main.fd8530ae.js"
   ]
 }
