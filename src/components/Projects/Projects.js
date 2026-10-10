@@ -8,6 +8,8 @@ import ProjectCard from "./ProjectCards";
 import test from "../../Assets/Projects/test.jpg";
 import hukuk from "../../Assets/Projects/hukuk.png";
 import web from "../../Assets/Projects/web.png";
+import yz from "../../Assets/Projects/yz.jpg";
+import nexus   from "../../Assets/Projects/nexus.png";
 
 
 function Projects() {
@@ -23,19 +25,43 @@ function Projects() {
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           
-          {/* 1. PROJE: Medikal Bilgi Sistemi */}
+          
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={nexus}
+              isBlog={false}
+              title="Nexus Bütünleşik Lojistik Karar Destek Platformu "
+              description=" Farklı lojistik ve taşımacılık ihtiyaçlarını tek merkezden yöneten karar destek sistemi (DSS) tasarladım; AFAD acil durum lojistiği,
+şehir içi kurye rota planlaması, şehirler arası kargo ve hastaneler arası tıbbi ürün (kan, aşı, organ) taşımacılığı için optimizasyon
+algoritmaları geliştirdim."
+              ghLink="https://github.com/kocmuhammet/nexus"
+              demoLink="" // Eğer projenin canlı bir web sitesi varsa buraya linkini ekleyebilirsin
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={yz}
+              isBlog={false}
+              title="Kişiselleştirilmiş Isıl Konfor Rehberi "
+              description=" Anlık hava durumu ve biyometrik verilere göre konfor analizi yapıp giyim tavsiyesi sunan yapay zeka destekli mobil uygulama
+geliştirdim; akıllı saat veri akışını ve hava durumu API'lerini entegre ettim"
+              ghLink="https://github.com/kocmuhammet/isil_konfor"
+              demoLink="" // Eğer projenin canlı bir web sitesi varsa buraya linkini ekleyebilirsin
+            />
+          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={hukuk}
               isBlog={false}
               title="Avukat Web Sitesi"
-              description="Avukatlık Bürosuna yapmış olduğum Html-CSS tabanlı web sitesi uygulaması."
+              description="Hukuk blogu, kurumsal ofis tanıtımı ve avukat kişisel sitesi olmak üzere 3 modüllü, modern ve kurumsal bir web arayüzü
+tasarladım."
               ghLink="https://github.com/kocmuhammet/huhuk-sitesi"
               
               demoLink="https://zehrabegumyildiz.av.tr/"
             />
-          </Col>
+          </Col> 
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -48,16 +74,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={test}
-              isBlog={false}
-              title="Medikal Bilgi Sistemi"
-              description="Hastaneler veya klinikler için geliştirilmiş, hasta kayıtlarının ve tıbbi verilerin yönetildiği kapsamlı bir bilgi sistemi uygulaması."
-              ghLink="https://github.com/muhammetkoc0/MedikalBilgiSistemi"
-              demoLink="" // Eğer projenin canlı bir web sitesi varsa buraya linkini ekleyebilirsin
-            />
-          </Col>
+          
 
           {/* 2. PROJE: Şehiriçi Ulaşım Sistemi */}
           <Col md={4} className="project-card">
@@ -65,7 +82,7 @@ function Projects() {
               imgPath={test}
               isBlog={false}
               title="Şehiriçi Ulaşım Sistemi"
-              description="Şehir içi toplu taşıma araçlarının rotalarını, saatlerini ve duraklarını takip etmeyi sağlayan bir ulaşım otomasyon projesi."
+              description=" Kartlı geçiş, biniş ve bakiye yönetimi içeren Akbil benzeri toplu taşıma sistemi simülasyonu geliştirdim."
               ghLink="https://github.com/kocmuhammet/sehiriciulasimsistemi"
               demoLink=""
             />
@@ -77,7 +94,7 @@ function Projects() {
               imgPath={test}
               isBlog={false}
               title="Tatlı sipariş sistemi"
-              description="Geliştirdiğim C tabanlı Tatlı Sipariş Sistemi"
+              description=" Restoran sipariş süreçleri için terminal tabanlı interaktif menü ve sipariş arayüzü programladım"
               ghLink="https://github.com/kocmuhammet/tatl-siparis-sistemi"
               demoLink=""
             />

@@ -83,7 +83,7 @@ function Home() {
               
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/muhammet-koç-5530b7246?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                  href="https://www.linkedin.com/in/muhammetkoc0"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
